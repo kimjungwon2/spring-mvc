@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
 
     @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp)
+    protected void service(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("HelloServlet.service");
+        String name = request.getParameter("username");
+        System.out.println(name);
     }
-
 
 }
