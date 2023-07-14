@@ -33,7 +33,7 @@ class MemberRepositoryTest {
         assertThat(findMember).isEqualTo(savedMember);
     }
 
-    @DisplayName("")
+    @DisplayName("Member 전체 조회 테스트입니다.")
     @Test
     void findAll(){
       //given
