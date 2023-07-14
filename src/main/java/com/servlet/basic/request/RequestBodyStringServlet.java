@@ -1,4 +1,4 @@
-package com.example.servlet.basic.request;
+package com.servlet.basic.request;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

@@ -3,8 +3,9 @@ package com.example.servlet.domain.member;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.servlet.domain.member.Member;
+import com.servlet.domain.member.MemberRepository;
 import java.util.List;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
