@@ -17,6 +17,7 @@ public class MemberRepository {
     }
 
     private MemberRepository(){
+
     }
 
     public Member save(Member member){
@@ -34,6 +35,6 @@ public class MemberRepository {
     }
 
     public void clearStore(){
-
+        store.clear();
     }
 }
