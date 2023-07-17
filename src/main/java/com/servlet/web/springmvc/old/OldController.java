@@ -14,6 +14,6 @@ public class OldController implements Controller {
             throws Exception {
         System.out.println("OldController.handleReuqest");
 
-        return null;
+        return new ModelAndView("new-form");
     }
 }
